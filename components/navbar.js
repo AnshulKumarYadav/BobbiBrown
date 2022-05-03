@@ -1,0 +1,37 @@
+function navbar()
+{
+    return `
+    <div class="navbar">
+        <div>
+            <h3>EMAIL SIGNUP</h3>
+        </div>
+        <div>
+            <img src="https://www.bobbibrowncosmetics.com/media/export/cms/logo.png" alt="logo">
+        </div>
+        <div class = "navbar">
+            <h3>Join BBACCESS</h3>
+            <div>
+            <span class="material-symbols-outlined">add_location</span>
+            <span class="material-symbols-outlined">person</span>
+            <span class="material-symbols-outlined">shopping_bag</span>
+            </div>
+        </div>
+    </div>
+    <div class="navbar" style="margin-top:20px">
+        <div id="search-box">
+        <span class="material-symbols-outlined">search</span>
+        <input type="text" placeholder="SEARCH" id="search">
+        </div>
+        <h3>New</h3>
+        <h3>BestSeller</h3>
+        <h3>Face</h3>
+        <h3>Makeup</h3>
+        <h3>Skincare</h3>
+        <h3>Virtual Services</h3>
+        <h3>Discover</h3>
+    </div>
+
+    `
+}
+
+export {navbar};

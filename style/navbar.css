@@ -1,0 +1,40 @@
+*{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+#header{
+    background-color: black;
+    color: white;
+   margin: -0.65%;
+   padding: 15px;
+}
+#header img{
+    width: 350px;
+    height: 50px;
+}
+#header h3{
+    font-size: 12px;
+    cursor: pointer;
+}
+#header h3:hover{
+    text-decoration: underline;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-transform: uppercase;
+}
+#search-box{
+   border-bottom: 1px solid #fff;
+   display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#search-box input{
+    background-color: transparent;
+    border: none;
+}
+::placeholder{
+    font-weight: bold;
+}
