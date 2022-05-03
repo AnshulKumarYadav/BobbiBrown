@@ -1,0 +1,101 @@
+*{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.carasoul{
+    width: 100%;
+    height: 450px;
+    /* border: 1px solid teal; */
+}
+
+#mom-gift ,#mom-gift2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 650px;
+}
+#mom-gift>div ,#mom-gift2>div{
+    width: 30%;
+    height: auto;
+}
+#mom-gift h1 ,#mom-gift2 h1{
+    font-size: 60px;
+    text-transform: uppercase;
+
+}
+#shopBtn{
+    display: flex;
+    color: #fff;
+    width: 350px;
+    height: 30px;
+    font-size: 10px;
+    background-color: #000000;
+    justify-content: space-around;
+    align-items: center;
+    text-transform: uppercase;
+}
+#shopBtn h3:hover{
+    background-color: #2a2727;
+}
+
+#mom-gift img ,#mom-gift2 img{
+width: 50%;
+height: 100%;
+}
+
+.founders{
+    width: 90%;
+    height: auto;
+    display: grid;
+    justify-content: space-around;
+    align-items: center;
+    gap: 40px;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: auto;
+    margin: auto;
+    /* border: 1px solid rebeccapurple; */
+}
+.founders>div{
+    /* border:1px solid teal; */
+    height: 100%;
+}
+.founders img{
+    width: 100%;
+    height: 50%;
+}
+.founder-title{
+    width: 90%;
+    /* border: 1px solid red; */
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+#y2k{
+    display: grid;
+    justify-content: space-around;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: auto;
+    align-items: center;
+    gap: 100px;
+    width: 80%;
+    margin: auto;
+    /* margin-top: 50px; */
+    margin-bottom: 50px;
+}
+#y2k img{
+    width: 100%;
+    height: 350px;
+}
+
+#learn_pro{
+    grid-template-columns: repeat(3,1fr);
+}
+.main{
+    height: auto;
+    margin-top: 30px;
+    /* border: 1px solid blue; */
+}
+#last_div{
+    margin-top: 80px;
+}
