@@ -36,9 +36,10 @@
     justify-content: space-around;
     align-items: center;
 }
-#search-box input{
+#search-box>input{
     background-color: transparent;
     border: none;
+    color: white;
 }
 ::placeholder{
     font-weight: bold;

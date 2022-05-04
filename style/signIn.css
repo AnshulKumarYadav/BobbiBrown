@@ -1,0 +1,143 @@
+*{
+  font-family: "BBText Regular", Helvetica, Arial, sans-serif;
+}
+#enter{
+    display: flex;
+    justify-content: center;
+    height: 600px;
+    margin-top: 40px;
+}
+#enterLeft , #enterRight {
+    /* border: solid; */
+    width: 30%;
+    height: 400px;
+}
+#line{
+  width: 3px;
+  height: 570px;
+  background-color: #000;
+  margin-top: 20px;
+}
+#enterLeft P{
+  width: 50%;
+  font-weight: bolder;
+   letter-spacing: 3px;
+   line-height: 20px;
+}
+#enterLeft h2{
+  height: 1px;
+}
+#enterLeft #login{
+  width: 100%;
+  height: 70%;
+}
+input{
+  margin-top: 10px;
+  width: 60%;
+  height: 30px;
+  outline: none;
+  font-weight: lighter;
+}
+a{
+  color: red;
+}
+#logIn{
+  background-color: #000;
+  margin-top: 20px;
+  outline: none;
+  border-radius: 5px;
+}
+#submit{
+  background-color: #000;
+  margin-top: 20px;
+  outline: none;
+  border-radius: 5px;
+  margin-left: 30px;
+}
+#enterRight{
+  margin-left: 50px;
+}
+#enterRight>P{
+  width: 70%;
+  font-weight: bolder;
+   letter-spacing: 3px;
+}
+#enterRight>h2{
+  width: 50%;
+}
+#month{
+  color: #000;
+  width: 20%;
+  border: solid;
+}
+#month option{
+  color: #000;
+  border: solid;
+  overflow: scroll;
+}
+#day{
+  color: #000;
+  width: 20%;
+  border: solid;
+}
+#day option{
+  color: #000;
+  border: solid;
+  overflow: scroll;
+}
+#label{
+  display: flex;
+}
+#check{
+  margin-left: -10px;
+  height: 20px;
+}
+#label1{
+  display: flex;
+}
+#check1{
+  margin-left: -50px;
+  height: 20px;
+}
+#label1>p{
+  margin-left: -50px;
+}
+#or{
+  display: flex;
+  margin: auto;
+}
+#or>div{
+  height: 3px;
+  width: 45%;
+  margin: auto;
+  background-color: #000;
+}
+#face{
+  height: 300px;
+  width: 52%;
+  justify-content: center;
+  margin: auto;
+}
+p>u{
+  color: red;
+}
+#label2{
+  display: flex;
+}
+#check2{
+  margin-left: -130px;
+  height: 20px;
+}
+#label2>p{
+  margin-left: -120px;
+
+}
+#submit2{
+  background-color: blue;
+  margin-top: 20px;
+  outline: none;
+  margin-left: 200px;
+  border: none;
+  border-radius: 5px;
+  font-size: 17px;
+}
