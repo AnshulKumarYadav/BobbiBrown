@@ -27,11 +27,13 @@
     color: #fff;
     width: 350px;
     height: 30px;
-    font-size: 10px;
     background-color: #000000;
     justify-content: space-around;
     align-items: center;
     text-transform: uppercase;
+}
+#shopBtn h3{
+    font-size: 10px;
 }
 #shopBtn h3:hover{
     background-color: #2a2727;
@@ -98,4 +100,13 @@ height: 100%;
 }
 #last_div{
     margin-top: 80px;
+}
+
+#gallery{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    overflow-x: scroll;
 }

@@ -6,7 +6,7 @@
     color: white;
    margin: -0.65%;
    margin-bottom: 0%;
-   padding: 15px;
+   padding: 10px;
 }
 #header img{
     width: 350px;
@@ -18,6 +18,10 @@
 }
 #header h3:hover{
     text-decoration: underline;
+}
+ #header a{
+    color: #fff;
+    text-decoration:none;
 }
 
 .navbar{
