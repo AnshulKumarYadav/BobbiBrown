@@ -1,52 +1,22 @@
-#signIn{
-    border: 2px solid;
-    height: 700px;
-    font-family: "BBText Regular", Helvetica, Arial, sans-serif;
-}
-.slideshow-container {
-  position: relative;
-  background: #343536;
+*{
   font-family: "BBText Regular", Helvetica, Arial, sans-serif;
-}
-i{
-    margin-left: 30px;
-}
-.mySlides {
-  display: none;
-  padding: 20px;
-  text-align: center;
-  color: white;
-}
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: -30px;
-  padding: 5px;
-  color: #888;
-  font-weight: bold;
-  font-size: 30px;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-}
-.next {
-  position: absolute;
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
-  color: white;
 }
 #enter{
     display: flex;
     justify-content: center;
+    height: 600px;
+    margin-top: 40px;
 }
-#enter>div{
-    border: solid;
+#enterLeft , #enterRight {
+    /* border: solid; */
     width: 30%;
     height: 400px;
+}
+#line{
+  width: 3px;
+  height: 570px;
+  background-color: #000;
+  margin-top: 20px;
 }
 #enterLeft P{
   width: 50%;
@@ -68,13 +38,17 @@ input{
   outline: none;
   font-weight: lighter;
 }
-#login a{
+a{
   color: red;
 }
 #submit{
   background-color: #000;
   margin-top: 20px;
   outline: none;
+  border-radius: 5px;
+}
+#enterRight{
+  margin-left: 50px;
 }
 #enterRight>P{
   width: 70%;
@@ -87,8 +61,66 @@ input{
 #month{
   color: #000;
   width: 20%;
+  border: solid;
 }
 #month option{
   color: #000;
   border: solid;
+  overflow: scroll;
+}
+#label{
+  display: flex;
+}
+#check{
+  margin-left: -10px;
+  height: 20px;
+}
+#label1{
+  display: flex;
+}
+#check1{
+  margin-left: -50px;
+  height: 20px;
+}
+#label1>p{
+  margin-left: -50px;
+}
+#or{
+  display: flex;
+  margin: auto;
+}
+#or>div{
+  height: 3px;
+  width: 45%;
+  margin: auto;
+  background-color: #000;
+}
+#face{
+  height: 300px;
+  width: 52%;
+  justify-content: center;
+  margin: auto;
+}
+p>u{
+  color: red;
+}
+#label2{
+  display: flex;
+}
+#check2{
+  margin-left: -130px;
+  height: 20px;
+}
+#label2>p{
+  margin-left: -120px;
+
+}
+#submit2{
+  background-color: blue;
+  margin-top: 20px;
+  outline: none;
+  margin-left: 180px;
+  border: none;
+  border-radius: 5px;
+  font-size: 17px;
 }
