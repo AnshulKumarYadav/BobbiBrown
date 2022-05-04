@@ -1,0 +1,70 @@
+
+
+  #fstpic {
+    width: 100%;
+    height: 350px;
+  }
+  .first-txt {
+    color: white;
+    position: absolute;
+    top: 130px;
+    left: 580px;
+    font-style: bold;
+    font-weight: bolder;
+    font-size: xx-large;
+  }
+  #sorting {
+    display: flex;
+    justify-content: end;
+    margin-right: 50px;
+  }
+  #select {
+    border: 3px solid black;
+    padding: 15px 70px;
+  }
+
+  #maincontainers {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    width: 90%;
+    justify-content: center;
+    padding-left: 40px;
+    margin: auto;
+    margin-top: 30px;
+  }
+  #maincontainers > div {
+    cursor: pointer;
+    width: 95%;
+  }
+  #maincontainers > div > div {
+    text-align: center;
+    height: 320px;
+  }
+ div>div:hover{
+   transform: scale(1.2);
+
+   transition: 0.5sec;
+ }
+
+  .box {
+    /* border: 2px solid black; */
+    width: 50%;
+    box-shadow: rgba(169, 167, 167, 0.2) 0px 2px 8px 0px;
+  }
+
+  .textbox {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+ 
+  .imgbox > img {
+    width: 100%;
+    height: 90%;
+  }
+  button {
+    width: 50%;
+    margin: auto;
+    margin-bottom: 15px;
+  }
