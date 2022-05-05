@@ -46,6 +46,7 @@ a{
   margin-top: 20px;
   outline: none;
   border-radius: 5px;
+  cursor: pointer;
 }
 #submit{
   background-color: #000;
@@ -55,7 +56,9 @@ a{
   margin-left: 30px;
 }
 #enterRight{
+  border: solid;
   margin-left: 50px;
+  height: auto;
 }
 #enterRight>P{
   width: 70%;
@@ -103,8 +106,10 @@ a{
   margin-left: -50px;
 }
 #or{
+  height: 100px;
   display: flex;
   margin: auto;
+  border: solid;
 }
 #or>div{
   height: 3px;
