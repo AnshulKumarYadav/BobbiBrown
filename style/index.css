@@ -7,6 +7,58 @@
     /* border: 1px solid teal; */
 }
 
+.slideshow-items{
+    position: absolute;
+    top: 15%;
+    left: 10%;
+    color: #fff;
+}
+.slideshow-items h1{
+    font-size: 53px;
+}
+.slideshow-items p{
+    font-size: 15px;
+}
+
+.slideshow-items button{
+    color: #000000;
+    width: 100px;
+    border: none;
+}
+#item1 button{
+    width: 200px;
+}
+#item2{
+    width: 50%;
+}
+#item3{
+width: 30%;
+left: 35%;
+top: 10%;
+text-align: center;
+}
+
+#gotta{
+    height: 500px;
+    width: 90%;
+    margin: auto;
+    border: 1px solid teal;
+}
+/* #gotta>div{
+    text-align: center;
+    text-transform: uppercase
+} */
+#gotta>div{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 45%;
+    margin: auto;
+    /* border: 1px solid teal; */
+    text-transform: uppercase
+}
+
+
 #mom-gift ,#mom-gift2{
     display: flex;
     justify-content: space-around;
