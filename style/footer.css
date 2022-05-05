@@ -51,6 +51,8 @@
     width: 80px;
     color: #fff;
     cursor: pointer;
+    background-color: transparent;
+    border: 1px solid #fff;
 }
 #footer button:hover{
     background-color: rgb(80, 78, 78);

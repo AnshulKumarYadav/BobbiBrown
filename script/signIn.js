@@ -40,8 +40,8 @@ let register = async (e) => {
 //   -----------------------------------------------LOGIN PAGE-------------------------------------------------------
   let login = async () =>{
     let user_data = {
-        email: document.getElementById("email").value,
-        password: document.getElementById("password").value,
+        email: document.getElementById("email1").value,
+        password: document.getElementById("password1").value,
     }
     if(user_data = JSON.stringify(user_data)){
         alert("LogIn successful")
