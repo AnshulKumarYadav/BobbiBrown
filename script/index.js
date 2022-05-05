@@ -21,3 +21,15 @@ getData(url).then((data) => {
 import {foot} from "../components/footer.js";
 
 read("footer").innerHTML = foot();
+
+
+
+
+let search = (e)=>{
+  if(e.key=="Enter"){
+    window.location.href="./html/search.html";
+    localStorage.setItem("key",JSON.stringify(read("search").value));
+  }
+}
+
+read("search").addEventListener("keydown",search);
