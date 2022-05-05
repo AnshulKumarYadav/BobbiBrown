@@ -14,242 +14,242 @@
 
  let newData = [
     {
-      image:
+      image_url:
         "https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_E96E49_600x600_0.jpg",
       name: "INCANDESCENT",
-      description: "Our ultimate quick eye shadow stick",
+      category: "Our ultimate quick eye shadow stick",
       price: "30.00",
       same: "A Few Left",
     },
     {
-      image:
+      image_url:
         "https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_BBUSET_600x600_0.jpg",
       name: "BISQUE",
-      description: "Discoloration neutralizer for undereyes & face",
+      category: "Discoloration neutralizer for undereyes & face",
       price: "32.00",
       same: "A Few Left",
     },
     {
-      image:
+      image_url:
         "https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_ERFJ11_600x600_0.jpg",
       name: "HONEY",
-      description: "Easy-to-use, long-lasting concealer stick",
+      category: "Easy-to-use, long-lasting concealer stick",
       price: "32.00",
       same: " Few Left",
     },
     {
-      image:
+      image_url:
         "https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_BBUSET_600x600_0.jpg",
       name: "INTENSIVE SERUM CONCEALER",
-      description: "Brightens and boosts hydration",
+      category: "Brightens and boosts hydration",
       price: "45.00",
       same: "LAst Few Left",
     },
     {
-      image:
+      image_url:
         "https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_EW5632_600x600_0.jpg",
       name: "PRETTY POWERFUL",
-      description: "Pretty Powerful cheek & lip color",
+      category: "Pretty Powerful cheek & lip color",
       price: "34.00",
       same: "A Few Left",
     },
     {
-      image:
+      image_url:
         "https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_ETCW01_600x600_0.jpg",
       name: "PINKY GLOW",
-      description: "Pearl-infused illuminator",
+      category: "Pearl-infused illuminator",
       price: "50.00",
       same: "No More Left",
     },
     {
-      image:
+      image_url:
         "https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_ETCY12_600x600_0.jpg",
       name: "BARE CLARET",
-      description: "THE CARLET COLLECTION",
+      category: "THE CARLET COLLECTION",
       price: "34.00",
       same: "2 Left",
     },
     {
-      image:
+      image_url:
         "https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_ERGC03_600x600_0.jpg",
       name: "SUN DIP",
-      description: "LUX EYE SHADOW",
+      category: "LUX EYE SHADOW",
       price: "28.00",
       same: "Only 4 Left",
     },
     {
-      image:
+      image_url:
         "https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_ERAN01_600x600_0.jpg",
       name: "EXTRA CLEANSING BALM",
-      description: "Purifying, conditioning cleanser",
+      category: "Purifying, conditioning cleanser",
       price: "56.00",
       same: "A Few Left",
     },
     {
-      image:
+      image_url:
         "https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_ETR201_600x600_0.jpg",
       name: "EXTRA SKINCARE PACKAGE",
-      description: "LUX EYE SHADOW",
+      category: "LUX EYE SHADOW",
       price: "125.00",
       same: "Only Few Left",
     },
     {
-      image:
+      image_url:
         "https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_E96E49_600x600_0.jpg",
       name: "INCANDESCENT",
-      description: "Our ultimate quick eye shadow stick",
+      category: "Our ultimate quick eye shadow stick",
       price: "30.00",
       same: "A Few Left",
     },
     {
-      image:
+      image_url:
         "https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_BBUSET_600x600_0.jpg",
       name: "BISQUE",
-      description: "Discoloration neutralizer for undereyes & face",
+      category: "Discoloration neutralizer for undereyes & face",
       price: "32.00",
       same: "A Few Left",
     },
     {
-      image:
+      image_url:
         "https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_ERFJ11_600x600_0.jpg",
       name: "HONEY",
-      description: "Easy-to-use, long-lasting concealer stick",
+      category: "Easy-to-use, long-lasting concealer stick",
       price: "32.00",
       same: " Few Left",
     },
     {
-      image:
+      image_url:
         "https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_BBUSET_600x600_0.jpg",
       name: "INTENSIVE SERUM CONCEALER",
-      description: "Brightens and boosts hydration",
+      category: "Brightens and boosts hydration",
       price: "45.00",
       same: "LAst Few Left",
     },
     {
-      image:
+      image_url:
         "https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_EW5632_600x600_0.jpg",
       name: "PRETTY POWERFUL",
-      description: "Pretty Powerful cheek & lip color",
+      category: "Pretty Powerful cheek & lip color",
       price: "34.00",
       same: "A Few Left",
     },
     {
-      image:
+      image_url:
         "https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_ETCW01_600x600_0.jpg",
       name: "PINKY GLOW",
-      description: "Pearl-infused illuminator",
+      category: "Pearl-infused illuminator",
       price: "50.00",
       same: "No More Left",
     },
     {
-      image:
+      image_url:
         "https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_ETCY12_600x600_0.jpg",
       name: "BARE CLARET",
-      description: "THE CARLET COLLECTION",
+      category: "THE CARLET COLLECTION",
       price: "34.00",
       same: "2 Left",
     },
     {
-      image:
+      image_url:
         "https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_ERGC03_600x600_0.jpg",
       name: "SUN DIP",
-      description: "LUX EYE SHADOW",
+      category: "LUX EYE SHADOW",
       price: "28.00",
       same: "Only 4 Left",
     },
     {
-      image:
+      image_url:
         "https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_ERAN01_600x600_0.jpg",
       name: "EXTRA CLEANSING BALM",
-      description: "Purifying, conditioning cleanser",
+      category: "Purifying, conditioning cleanser",
       price: "56.00",
       same: "A Few Left",
     },
     {
-      image:
+      image_url:
         "https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_ETR201_600x600_0.jpg",
       name: "EXTRA SKINCARE PACKAGE",
-      description: "LUX EYE SHADOW",
+      category: "LUX EYE SHADOW",
       price: "125.00",
       same: "Only Few Left",
     },
     {
-      image:
+      image_url:
         "https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_E96E49_600x600_0.jpg",
       name: "INCANDESCENT",
-      description: "Our ultimate quick eye shadow stick",
+      category: "Our ultimate quick eye shadow stick",
       price: "30.00",
       same: "A Few Left",
     },
     {
-      image:
+      image_url:
         "https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_BBUSET_600x600_0.jpg",
       name: "BISQUE",
-      description: "Discoloration neutralizer for undereyes & face",
+      category: "Discoloration neutralizer for undereyes & face",
       price: "32.00",
       same: "A Few Left",
     },
     {
-      image:
+      image_url:
         "https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_ERFJ11_600x600_0.jpg",
       name: "HONEY",
-      description: "Easy-to-use, long-lasting concealer stick",
+      category: "Easy-to-use, long-lasting concealer stick",
       price: "32.00",
       same: " Few Left",
     },
     {
-      image:
+      image_url:
         "https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_BBUSET_600x600_0.jpg",
       name: "INTENSIVE SERUM CONCEALER",
-      description: "Brightens and boosts hydration",
+      category: "Brightens and boosts hydration",
       price: "45.00",
       same: "LAst Few Left",
     },
     {
-      image:
+      image_url:
         "https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_EW5632_600x600_0.jpg",
       name: "PRETTY POWERFUL",
-      description: "Pretty Powerful cheek & lip color",
+      category: "Pretty Powerful cheek & lip color",
       price: "34.00",
       same: "A Few Left",
     },
     {
-      image:
+      image_url:
         "https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_ETCW01_600x600_0.jpg",
       name: "PINKY GLOW",
-      description: "Pearl-infused illuminator",
+      category: "Pearl-infused illuminator",
       price: "50.00",
       same: "No More Left",
     },
     {
-      image:
+      image_url:
         "https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_ETCY12_600x600_0.jpg",
       name: "BARE CLARET",
-      description: "THE CARLET COLLECTION",
+      category: "THE CARLET COLLECTION",
       price: "34.00",
       same: "2 Left",
     },
     {
-      image:
+      image_url:
         "https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_ERGC03_600x600_0.jpg",
       name: "SUN DIP",
-      description: "LUX EYE SHADOW",
+      category: "LUX EYE SHADOW",
       price: "28.00",
       same: "Only 4 Left",
     },
     {
-      image:
+      image_url:
         "https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_ERAN01_600x600_0.jpg",
       name: "EXTRA CLEANSING BALM",
-      description: "Purifying, conditioning cleanser",
+      category: "Purifying, conditioning cleanser",
       price: "56.00",
       same: "A Few Left",
     },
     {
-      image:
+      image_url:
         "https://www.bobbibrowncosmetics.com/media/export/cms/products/600x600/bb_sku_ETR201_600x600_0.jpg",
       name: "EXTRA SKINCARE PACKAGE",
-      description: "LUX EYE SHADOW",
+      category: "LUX EYE SHADOW",
       price: "125.00",
       same: "Only Few Left",
     },
@@ -270,7 +270,7 @@
 
       let image = document.createElement("img");
       image.setAttribute("id", "productimage");
-      image.src = data.image;
+      image.src = data.image_url;
 
       let textdiv = document.createElement("div");
       textdiv.setAttribute("class", "textbox");
@@ -279,10 +279,10 @@
       name.innerText = data.name;
 
       let description = document.createElement("h4");
-      description.innerText = data.description;
+      description.innerText = data.category;
 
       let price = document.createElement("h3");
-      price.innerText = `$ ${data.price} ` ;
+      price.innerText = `$ ${Number(data.price)} ` ;
 
       let same = document.createElement("p");
       same.innerText = data.same;
@@ -317,4 +317,23 @@
     alert("Successfully Added");
     console.log(cartArr);
 
+  }
+
+  var selected = document.querySelector("#select").addEventListener("click",sortPrice)
+
+  function sortPrice() {
+    var selected = document.querySelector("#select").value;
+
+    if (selected == "LowToHigh") {
+      newData.sort(function (a, b) {
+        return a.price - b.price;
+      });
+    }
+    if (selected == "HighToLow") {
+      newData.sort(function (a, b) {
+        return b.price - a.price;
+      });
+    }
+    
+    displaydata(newData);
   }

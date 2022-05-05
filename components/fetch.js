@@ -20,7 +20,6 @@ let searchproducts= async(query)=>{
 
 }
 
-let addbag=JSON.parse(localStorage.getItem("bobcart")) || [];
 
 let append=(data,container)=>{
     data.forEach((el)=>{
@@ -30,11 +29,11 @@ let append=(data,container)=>{
         div.setAttribute("class","image");
 
         let h2=document.createElement("h2");
-
+        
         let p1=document.createElement("p");
-
+        
         let h=document.createElement("h3");
-
+        
         let p2=document.createElement("p");
 
         let btn=document.createElement("button");
@@ -43,9 +42,9 @@ let append=(data,container)=>{
 
         btn.addEventListener("click",function() {
             addtobag(el);
-
+            
         });
-        // let c=document.createElement("p");
+        let c=document.createElement("p");
 
         img.src=el.image_link;
         h2.innerText="BobbiBrown";
@@ -58,16 +57,19 @@ let append=(data,container)=>{
         h.style.color="grey";
         p2.innerText= `$ ${el.price}`
         // c.innerText=product_colors;
-
+        
         div.append(img,h2,p1,h,p2,btn);
+        div.id="box";
         container.append(div);
-
-
+        
+        
     });
 }
 
+let addbag=JSON.parse(localStorage.getItem("bobcart")) || [];
+
 function addtobag(el){
-    console.log(el);
+    // console.log(el);
     addbag.push(el);
     localStorage.setItem("bobcart",JSON.stringify(addbag));
 }
