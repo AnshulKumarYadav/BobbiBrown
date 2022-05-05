@@ -283,6 +283,7 @@ let newData = [
 
 var gotta = document.querySelector("#gotta-Container");
 
+function simpliCall(){
 newData.map(function(el){
   let img = document.createElement("img");
   img.src = el.image_url;
@@ -298,11 +299,10 @@ newData.map(function(el){
   
   var cart = document.createElement("button");
   cart.innerText = "ADD TO BAG";
-  cart.setAttribute("id", "cart");
   cart.style.background = "black";
   cart.style.color = "white";
   cart.addEventListener("click", function () {
-    addToCart(data);
+    addToCart(el);
     });
 
   let div = document.createElement("div");
@@ -310,54 +310,29 @@ newData.map(function(el){
   
   gotta.append(div);
 })
+}
+
+simpliCall();
 
 document.querySelector(".new").addEventListener("click",displaydata);
 
 function displaydata(){
+  alert("confirm");
   var gotta = document.querySelector("#gotta-Container");
   gotta.innerHTML = " ";
-  newData.map(function(el){
-    let img = document.createElement("img");
-    img.src = el.image_url;
-    
-    let name = document.createElement("h4");
-    name.innerText= el.name;
-    
-    let title = document.createElement("p");
-    title.innerText = el.category;
-    
-    let price = document.createElement("p");
-    price.innerText = `$ ${el.price}`;
-
-    let same = document.createElement("p");
-    same.innerText =el.same;
-    
-    var cart = document.createElement("button");
-    cart.innerText = "ADD TO BAG";
-    cart.setAttribute("id", "cart");
-    cart.style.background = "black";
-    cart.style.color = "white";
-    cart.addEventListener("click", function () {
-      addToCart(data);
-      });
-  
-    let div = document.createElement("div");
-    div.append(img,name,title,price,same,cart);
-    
-    gotta.append(div);
-  })
+  simpliCall();
   
 }
 
 let cartArr = JSON.parse(localStorage.getItem("bobcart")) || [] 
 
-  function addToCart(data) {
+  function addToCart(el) {
     console.log("working add to cart")
 
-    cartArr.push(data);
+    cartArr.push(el);
     localStorage.setItem("bobcart", JSON.stringify(cartArr));
-    alert("Successfully Added");
-    console.log(cartArr);
+    alert("Item added to cart");
+    // console.log(cartArr);
 
   }
 
