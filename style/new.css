@@ -42,7 +42,7 @@
     height: 320px;
   }
  div>div:hover{
-   transform: scale(1.2);
+   transform: scale(1.0);
 
    transition: 0.5sec;
  }

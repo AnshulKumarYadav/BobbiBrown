@@ -23,7 +23,7 @@ function navbar()
         <span class="material-symbols-outlined">search</span>
         <input type="text" placeholder="SEARCH" id="search">
         </div>
-        <h3><a href="./html/new.html">New</a></h3>
+        <h3><a href="../html/new.html">New</a></h3>
         <h3><a href="./html/new.html">BestSeller</a></h3>
         <h3>Face</h3>
         <h3>Makeup</h3>
