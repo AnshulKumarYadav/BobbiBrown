@@ -3,7 +3,7 @@ function navbar()
     return `
     <div class="navbar">
         <div>
-            <h3> <a href="/BobbiBrown/html/new.html">EMAIL SIGNUP</a></h3>
+            <h3 onclick="window.location.href='/BobbiBrown/html/signIn.html'">EMAIL SIGNUP</h3>
         </div>
         <div>
             <img src="https://www.bobbibrowncosmetics.com/media/export/cms/logo.png" alt="logo">

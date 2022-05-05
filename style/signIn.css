@@ -54,6 +54,7 @@ a{
   outline: none;
   border-radius: 5px;
   margin-left: 30px;
+  cursor: pointer;
 }
 #enterRight{
   margin-left: 50px;
@@ -143,4 +144,5 @@ p>u{
   border: none;
   border-radius: 5px;
   font-size: 17px;
+  cursor: pointer;
 }

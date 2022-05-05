@@ -45,6 +45,7 @@ let register = async (e) => {
     }
     if(user_data1 = JSON.stringify(user_data1)){
         alert("LogIn successful")
+
     }
     else{
       alert("Wrong Email or password")
@@ -65,6 +66,7 @@ let register = async (e) => {
     getUserDetail(email1,data.token)
     console.log(data)
     window.location.reload();
+    onclick="window.location.href='/BobbiBrown/html/new.html'"
 };
 document.getElementById("logIn").addEventListener("click",login)
 
