@@ -22,7 +22,7 @@ let register = async (e) => {
       {
         method: "POST",
         body: form_data,
-        //  mode: "no-cors",
+        mode: "no-cors",
         headers: {
           "Content-Type": "application/json",
         },
@@ -39,33 +39,39 @@ let register = async (e) => {
 
 //   -----------------------------------------------LOGIN PAGE-------------------------------------------------------
   let login = async () =>{
-    let user_data = {
+    let user_data1 = {
         email: document.getElementById("email1").value,
         password: document.getElementById("password1").value,
     }
-    if(user_data = JSON.stringify(user_data)){
+    if(user_data1 = JSON.stringify(user_data1)){
         alert("LogIn successful")
+
+    }
+    else{
+      alert("Wrong Email or password")
     }
 
     let res = await fetch(
         "https://masai-api-mocker.herokuapp.com/auth/login",
     {
         method: 'POST',
-        body:user_data,
+        body:user_data1,
+        mode: "no-cors",
         headers:{
             "Content-Type":"application/json"
         },
     });
     let data = await res.json();
-    let email = document.getElementById("email").value;
-    getUserDetail(email,data.token)
+    let email1 = document.getElementById("email").value;
+    getUserDetail(email1,data.token)
     console.log(data)
     window.location.reload();
+    onclick="window.location.href='/BobbiBrown/html/new.html'"
 };
 document.getElementById("logIn").addEventListener("click",login)
 
-let getUserDetail = async(email,token) =>{
-   let res = await fetch(`https://masai-api-mocker.herokuapp.com/user/${email}`,{
+let getUserDetail = async(email1,token) =>{
+   let res = await fetch(`https://masai-api-mocker.herokuapp.com/user/${email1}`,{
        headers:{
         "Authorization": `Bearer ${token}`
        }

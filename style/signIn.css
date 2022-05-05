@@ -46,6 +46,7 @@ a{
   margin-top: 20px;
   outline: none;
   border-radius: 5px;
+  cursor: pointer;
 }
 #submit{
   background-color: #000;
@@ -53,9 +54,11 @@ a{
   outline: none;
   border-radius: 5px;
   margin-left: 30px;
+  cursor: pointer;
 }
 #enterRight{
   margin-left: 50px;
+  height: auto;
 }
 #enterRight>P{
   width: 70%;
@@ -103,6 +106,7 @@ a{
   margin-left: -50px;
 }
 #or{
+  height: 100px;
   display: flex;
   margin: auto;
 }
@@ -140,4 +144,5 @@ p>u{
   border: none;
   border-radius: 5px;
   font-size: 17px;
+  cursor: pointer;
 }
