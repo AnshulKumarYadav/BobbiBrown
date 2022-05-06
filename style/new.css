@@ -68,3 +68,9 @@
     margin: auto;
     margin-bottom: 15px;
   }
+
+  #select{
+    background-color: black;
+    color: white;
+
+  }
