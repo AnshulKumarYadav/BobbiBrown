@@ -5,8 +5,8 @@ function navbar()
         <div>
             <h3 onclick="window.location.href='/BobbiBrown/html/signIn.html'">EMAIL SIGNUP</h3>
         </div>
-        <div>
-            <img src="https://www.bobbibrowncosmetics.com/media/export/cms/logo.png" alt="logo">
+        <div >
+        <a href="/BobbiBrown/index.html"> <img  src="https://www.bobbibrowncosmetics.com/media/export/cms/logo.png" alt="logo"></a>
         </div>
         <div class = "navbar">
             <h3>Join BBACCESS</h3>
@@ -25,9 +25,9 @@ function navbar()
         </div>
         <h3><a href="/BobbiBrown/html/new.html">New</a></h3>
         <h3><a href="/BobbiBrown/html/new.html">BestSeller</a></h3>
-        <h3>Face</h3>
-        <h3>Makeup</h3>
-        <h3>Skincare</h3>
+        <h3> <a href="/BobbiBrown/html/skincare.html">Face</a></h3>
+        <h3> <a href="/BobbiBrown/html/skincare.html">Makeup</a></h3>
+        <h3> <a href="/BobbiBrown/html/skincare.html">Skincare</a></h3>
         <h3>Virtual Services</h3>
         <h3>Discover</h3>
     </div>
