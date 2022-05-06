@@ -1,6 +1,8 @@
 document.querySelector("#quantity_No").innerText = 6;
-let item = document.querySelector("#\cart_product")
+let item = document.querySelector("#cart_product")
+
 let cartDetails = JSON.parse(localStorage.getItem("bobcart")) || [];
+
 cartDetails.map(function(elem){
     // main container for one item
     let div = document.createElement("div");
@@ -33,8 +35,8 @@ cartDetails.map(function(elem){
     div4.setAttribute("id","p_price");
     let select = document.createElement("select");
     select.setAttribute("id","p_qty");
-    select.addEventListener("click" ,function(){
-        myfunction(elem)});
+    select.addEventListener("change" ,function(){
+        myfunction(elem.price)});
     let option1 = document.createElement("option");
     option1.value = "1";
     option1.innerText = "1";
@@ -64,6 +66,7 @@ cartDetails.map(function(elem){
     
     let price = document.createElement("p");
     price.setAttribute("id","prod_price");
+    // price.innerText=null;
     price.innerText = elem.price;
     
     
@@ -71,21 +74,22 @@ cartDetails.map(function(elem){
     div2.append(div3,size,div4);
     
 
-
-
-
     div.append(div1,div2);
     item.append(div);
 
 })
-function myfunction(){
+let a = document.querySelector("#prod_price").innerText;
+// console.log("a: ", a);
+function myfunction(elem){
     let quantity = document.getElementById("p_qty").value;
     console.log(quantity);
-    let price1 = document.getElementById("prod_price").innerText;
-    let total =`$ ${Number(price1)*Number(quantity)}`;
+    // let price1 = document.getElementById("prod_price").innerText;
+    let total =`$ ${Number(elem)*Number(quantity)}`;
+    // let a = document.querySelector("#prod_price").innerText;
+    // console.log("a: ", a);
 
-    price1 = total;
-    console.log(price1);
-
-    return price1;
+    a = total;
+    console.log("a: ", a);
+    // console.log(price1);
+    return total;
 }
