@@ -7,7 +7,7 @@ document.getElementById("footer").innerHTML = foot()
 // -----------------------------------------------SIGNIN PAGE-------------------------------------------------------
 let login = async () => {
   let user_data = {
-    username: document.getElementById("email").value,
+    username: document.getElementById("username").value,
     password: document.getElementById("password").value,
   };
 
@@ -54,6 +54,7 @@ let register = async (e) => {
   e.preventDefault();
 
   let form_data = {
+    username: document.getElementById("usernameSignup").value,
     email: document.getElementById("emailSignup").value,
     password: document.getElementById("passwordSignup").value,
   }
@@ -65,7 +66,7 @@ let register = async (e) => {
     {
       method: "POST",
       body: form_data,
-      // mode: "no-cors"
+      mode: "no-cors",
       headers: {
         "Content-Type": "application/json",
       },
