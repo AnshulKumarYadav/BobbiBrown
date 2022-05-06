@@ -29,6 +29,7 @@
     justify-content: space-around;
     align-items: center;
     text-transform: uppercase;
+    cursor: pointer;
 }
 #search-box{
    border-bottom: 1px solid #fff;
@@ -43,4 +44,10 @@
 }
 ::placeholder{
     font-weight: bold;
+}
+#search{
+    color: white;
+}
+#div2{
+    margin-top: 20px;
 }

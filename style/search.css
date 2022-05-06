@@ -1,14 +1,18 @@
 #container{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    /* padding-left: 20px;
-    padding-right: 20px; */
-    padding: 20px;
-    
+    align-items: center;
+    /* border: 1px solid teal; */
     grid-gap: 20px; 
-    width: 80%;
-    margin: 20px auto;
+    width: 50%;
+    margin:auto;
+    margin-top: 40px;
 }
+#container>div{
+    /* border: 1px solid red; */
+    text-align: center;
+}
+
 
 .image img{
     width: 100%;
@@ -40,3 +44,36 @@
     
     /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
 /* } */ 
+
+#inputBox{
+    
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 40%;
+    height: 50px;
+    margin: auto;
+    margin-top: 50px;
+    border: 1px solid #000000;
+}
+#inputSearch{
+    width: 80%;
+    height: 90%;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+#submit{
+    
+    
+    width: 20%;
+    height: 100%;
+    /* padding: 10px; */
+    background-color: #000000;
+    color: #ffffff;
+    font-weight: bold;
+    /* font-family: "BBText Bold",Helvetica,Arial,sans-serif; */
+    font-size: 14px;
+    cursor:pointer;
+    /* line-height: 1;
+    letter-spacing: 1px; */
+}

@@ -18,7 +18,7 @@ function navbar()
             </div>
         </div>
     </div>
-    <div class="navbar" style="margin-top:20px">
+    <div class="navbar" id="div2">
         <div id="search-box">
         <span class="material-symbols-outlined">search</span>
         <input type="text" placeholder="SEARCH" id="search">
@@ -34,6 +34,5 @@ function navbar()
 
     `
 }
-
 
 export {navbar};
