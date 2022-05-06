@@ -40,7 +40,7 @@ let getUserDetail = async (username, token) => {
         Authorization: `Bearer ${token}`,
       },
     }
-  );
+  )
 
   let data = await res.json();
   console.log("user data: ", data);
@@ -69,7 +69,7 @@ let register = async (e) => {
       mode: "no-cors",
       headers: {
         "Content-Type": "application/json",
-      },
+      }
     }
   )
 
