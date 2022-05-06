@@ -1,6 +1,8 @@
 document.querySelector("#quantity_No").innerText = 6;
-let item = document.querySelector("#\cart_product")
-let cartDetails = JSON.parse(localStorage.getItem("bobcart")) || [];
+
+let item = document.querySelector("#cart_product")
+let cartDetails = JSON.parse(localStorage.getItem("bobcart"));
+
 cartDetails.map(function(elem){
     // main container for one item
     let div = document.createElement("div");
@@ -10,7 +12,7 @@ cartDetails.map(function(elem){
     let div1 = document.createElement("div");
     div1.setAttribute("id","img_details")
     let img = document.createElement("img");
-    img.src = elem.image;
+    img.src = elem.image_url;
     div1.append(img);
 
     // container for details
@@ -22,7 +24,7 @@ cartDetails.map(function(elem){
     let name = document.createElement("p");
     let remove = document.createElement("p");
     name.innerText = elem.name;
-    // remove.innerHTML = <i class="fa-solid fa-xmark-large"></i>;
+    // remove.append(`<i class="fa-solid fa-xmark-large"></i>`);
     div3.append(name,remove);
 
     let size = document.createElement("p");
@@ -33,8 +35,11 @@ cartDetails.map(function(elem){
     div4.setAttribute("id","p_price");
     let select = document.createElement("select");
     select.setAttribute("id","p_qty");
-    select.addEventListener("click" ,function(){
-        myfunction(elem)});
+
+    select.addEventListener("change" ,function(){
+        myfunction(elem,price)});
+    
+
     let option1 = document.createElement("option");
     option1.value = "1";
     option1.innerText = "1";
@@ -61,31 +66,36 @@ cartDetails.map(function(elem){
     option8.innerText = "8";
     select.append(option1,option2,option3,option4,option5,option6,option7,option8);
    
-    
     let price = document.createElement("p");
     price.setAttribute("id","prod_price");
     price.innerText = elem.price;
     
-    
     div4.append(select,price);
     div2.append(div3,size,div4);
     
-
-
-
-
     div.append(div1,div2);
     item.append(div);
-
+    
+    
 })
-function myfunction(){
+
+// console.log(cartDetails)
+function myfunction(elem,price){
     let quantity = document.getElementById("p_qty").value;
-    console.log(quantity);
-    let price1 = document.getElementById("prod_price").innerText;
-    let total =`$ ${Number(price1)*Number(quantity)}`;
-
-    price1 = total;
-    console.log(price1);
-
-    return price1;
+    quantity = Number(quantity)
+    // console.log(quantity);
+    // let price = document.getElementById("prod_price").innerText;
+    let price1 = Number(elem.price);
+    
+    // console.log(price1)
+    let total =price1*quantity;
+    // console.log(total)
+    // let price = document.getElementById("prod_price").innerText;
+    price.innerText = total;
+    // // price1 = total;
+    // // console.log(total);
+    // // let price = localStorage.setItem("price1",JSON.stringify(price1))
+    // return price1;
+    // localStorage.setItem("price1",total);
 }
+

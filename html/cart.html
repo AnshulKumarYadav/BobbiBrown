@@ -11,6 +11,7 @@
       src="https://kit.fontawesome.com/24c494a6b6.js"
       crossorigin="anonymous"
     ></script>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;500&family=Poppins:wght@200&display=swap" rel="stylesheet">
     
 </head>
 <body>
@@ -64,16 +65,31 @@
         </div>
         <div id="checkout">
             <div id="checkout_page">
-                <div id="prod_checkout">
-                    <p>CHECKOUT</p>
+                <button id="checkout_button">CHECKOUT</button>
+            </div>
+            <div id="total_amount">
+                <div id="title_2">
+                    <p>ORDER SUMMARY</p>
+                    <p><i class="fa-solid fa-angle-down"></i></p>
                 </div>
+                <div class="amount">
+                    <p>SUB TOTAL</p>
+                    
+                    <p class="total_amount"></p>
+                </div>
+                <div class="amount">
+                    <p>DELIVERY METHOD</p>
+                    <p>$0</p>
+                </div>
+                <input type="text" placeholder="Standard Delivery">
+            </div>
+            <div id="amount">
+                <p>ESTIMATED TOTAL (MRP INCLUSIVE OF ALL TAXES)</p>
+                <p class="total_amount">$25500</p>
             </div>
         </div>
     </div>
-    <!-- <select id="select" onclick="myfunction()">
-        <option value="1">1</option>
-        <option value="2">2</option>
-    </select> -->
+    
 </body>
 </html>
 <script src="/BobbiBrown/script/cart.js"></script>
