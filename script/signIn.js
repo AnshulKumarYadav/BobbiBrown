@@ -40,7 +40,7 @@ let getUserDetail = async (username, token) => {
         Authorization: `Bearer ${token}`,
       },
     }
-  )
+  );
 
   let data = await res.json();
   console.log("user data: ", data);
@@ -50,15 +50,15 @@ let getUserDetail = async (username, token) => {
 
 
 //   -----------------------------------------------Signup PAGE-------------------------------------------------------
-let register = async (e) => {
-  e.preventDefault();
+let register = async () => {
+  event.preventDefault();
 
   let form_data = {
     username: document.getElementById("usernameSignup").value,
     email: document.getElementById("emailSignup").value,
     password: document.getElementById("passwordSignup").value,
   }
-
+  console.log(form_data)
   form_data = JSON.stringify(form_data);
 
   let res = await fetch(

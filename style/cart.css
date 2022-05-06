@@ -147,16 +147,76 @@ button{
 #checkout_page{
     height: 80px;
     width: 100%;
-    margin-top: -25px;
     background-color: rgb(230, 230, 230);
 }
-#prod_checkout{
-    height: 50px;
+#checkout_button{
+    height:50px;
     width: 300px;
     background-color: #f46;
     color: white;
-    text-align: center;
-    padding: 1px;
-    margin-top: 20px;
+    border: none;
+    margin-top: 13px;
+    margin-left: 20px;
+}
+#total_amount{
+    height:190px;
+    width: 300px;
+    margin-left: 20px;
+    border-bottom: 1px solid black;
+}
+#title_2{
     font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 200;
+    /* word-spacing: 50px; */
+    letter-spacing: 3px;
+    /* margin-top: -15px; */
+    /* padding: 15px; */
+}
+.amount{
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 200;
+    margin-top: -15px;
+    /* word-spacing: 50px; */
+    /* margin-top: -50px; */
+    /* padding: 15px; */
+}
+.amount>p:nth-child(1){
+    color: #aaa;
+    font-family: 'Poppins', sans-serif;
+}
+.amount>p:nth-child(2){
+    color: rgb(0, 0, 0);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+#total_amount>input{
+    height:40px;
+    width: 292px;
+    
+}
+#amount{
+    height:40px;
+    width: 300px;
+    margin-left: 20px;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+    color: rgb(0, 0, 0);
+    font-family: 'Poppins', sans-serif;
+}
+#amount>p:nth-child(1){
+    width: 200px;
+    color: rgb(0, 0, 0);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+#amount>p:nth-child(2){
+    color: rgb(0, 0, 0);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
 }
