@@ -243,8 +243,7 @@ height: 100%;
 }
 #box{
     width: 150px;
-    height: 15r0px;
-/*     border: 1px solid teal; */
+    height: 200px;
 }
 #box button{
     background-color: #000000;
