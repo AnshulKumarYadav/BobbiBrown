@@ -65,6 +65,7 @@ document.getElementById("logIn").addEventListener("click", login);
 
 let getUserDetail = async (username, token) => {
     console.log("here");
+    alert("Login Success")
   let res = await fetch(
     `https://masai-api-mocker.herokuapp.com/user/${username}`,
     {
