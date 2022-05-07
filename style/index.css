@@ -244,7 +244,7 @@ height: 100%;
 #box{
     width: 150px;
     height: 15r0px;
-    border: 1px solid teal;
+/*     border: 1px solid teal; */
 }
 #box button{
     background-color: #000000;
