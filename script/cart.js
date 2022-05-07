@@ -5,13 +5,16 @@
 
 // document.getElementById("footer").innerHTML = foot();
 
-document.querySelector("#quantity_No").innerText = 6;
+// document.querySelector("#quantity_No").innerText = 6;
 
 let item = document.querySelector("#cart_product")
 let cartDetails = JSON.parse(localStorage.getItem("bobcart"));
 let total_price = 0;
-cartDetails.map(function(elem){
+document.querySelector("#quantity_No").innerText = cartDetails.length;
+cartDetails.map(function(elem,index){
     // main container for one item
+
+    
     let div = document.createElement("div");
     div.setAttribute("id","p_details")
 
@@ -33,6 +36,8 @@ cartDetails.map(function(elem){
     name.innerText = elem.name;
     remove.setAttribute("class","fa-solid fa-xmark")
 
+    remove.addEventListener("click" ,function(){
+        myfunction2(elem,index)});
     // remove.append(`<i class="fa-solid fa-xmark"></i>`);
     div3.append(name,remove);
 
@@ -106,3 +111,8 @@ function myfunction(elem,price){
     
 }
 
+function myfunction2(elem,index){
+    cartDetails.splice(index,1);
+    localStorage.setItem("bobcart",JSON.stringify(cartDetails));
+    window.location.reload();
+}

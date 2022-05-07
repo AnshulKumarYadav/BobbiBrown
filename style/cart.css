@@ -109,6 +109,7 @@ button{
     height: 10px;
     width: 100%;
     display: flex;
+    justify-content: space-between;
 }
 #p_price{
     height: 50px;
@@ -117,8 +118,12 @@ button{
     justify-content: space-between;
     margin-top: 40px;
 }
-#name_tag>p:nth-child(1){
-    font-size: 20px;
+#name_tag>p{
+    font-size: 15px;
+}
+#name_tag>i{
+    font-size: 15px;
+    margin-top: 20px;
 }
 #p_quantity>p{
     font-size: 8px;
