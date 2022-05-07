@@ -77,12 +77,7 @@ cartDetails.map(function(elem){
    
     let price = document.createElement("p");
     price.setAttribute("id","prod_price");
-<<<<<<< HEAD
     price.innerText ="$"+ elem.price;
-=======
-    // price.innerText=null;
-    price.innerText = elem.price;
->>>>>>> 6c11fe68db8ad427af41b45a505b3db0642f3d3c
     
     div4.append(select,price);
     div2.append(div3,size,div4);
