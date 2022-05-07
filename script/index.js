@@ -317,7 +317,7 @@ simpliCall();
 document.querySelector(".new").addEventListener("click",displaydata);
 
 function displaydata(){
-  alert("confirm");
+  // alert("confirm");
   var gotta = document.querySelector("#gotta-Container");
   gotta.innerHTML = " ";
   simpliCall();
@@ -336,4 +336,17 @@ let cartArr = JSON.parse(localStorage.getItem("bobcart")) || []
 
   }
 
+  import {searchproducts, append} from "../components/fetch.js";
+
+  let displayData2=()=>{
+    searchproducts("eyeliner").then((data)=>{
+      console.log(data);
+      let gotta = document.querySelector("#gotta-Container");
+      gotta.innerHTML = " ";
+      append(data,gotta);
+    })
+  }
+
+  read("skincare").addEventListener("click",displayData2);
+  
 
