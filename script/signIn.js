@@ -32,6 +32,7 @@ let register = async (e) => {
 
   let data = await res.json();
   console.log(data);
+  alert("SignIn Successful")
 };
 
 document.getElementById("submit").addEventListener("click", register);
@@ -65,7 +66,7 @@ document.getElementById("logIn").addEventListener("click", login);
 // let userDetails = JSON.parse(localStorage.getItem("userData"))||[];
 let getUserDetail = async (username, token) => {
     console.log("here");
-    alert("Login Success")
+    alert("Login Successful")
   let res = await fetch(
     `https://masai-api-mocker.herokuapp.com/user/${username}`,
     {
