@@ -13,9 +13,12 @@
       crossorigin="anonymous"
     ></script>
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;500&family=Poppins:wght@200&display=swap" rel="stylesheet">
-    
+    <!-- <link rel="stylesheet" href="./style/navbar.css"> 
+    <link rel="stylesheet" href="/BobbiBrown/style/footer.css"> -->
+
 </head>
 <body>
+    <div id="header"></div>
     <div id="main">
         <div id="items">
             <div id="quantity">SHOPPING CART (<span id="quantity_No">6</span>)</div>
@@ -61,7 +64,7 @@
             </div>
             <div id="cart_product"></div>
             <div id="p_checkout" class="p_checkout">
-                <p>CHECKOUT</p>
+                <p><a href="checkout.html">CHECKOUT</a></p>
             </div>
         </div>
         <div id="checkout">
@@ -75,8 +78,7 @@
                 </div>
                 <div class="amount">
                     <p>SUB TOTAL</p>
-                    
-                    <p class="total_amount"></p>
+                    <p id="total_amount2">0</p>
                 </div>
                 <div class="amount">
                     <p>DELIVERY METHOD</p>
@@ -86,11 +88,11 @@
             </div>
             <div id="amount">
                 <p>ESTIMATED TOTAL (MRP INCLUSIVE OF ALL TAXES)</p>
-                <p class="total_amount">$25500</p>
+                <p id="total_amount3">0</p>
             </div>
         </div>
     </div>
-    
+    <div id="footer"></div>
 </body>
 </html>
-<script src="/BobbiBrown/script/cart.js"></script>
+<script type="module" src="/BobbiBrown/script/cart.js"></script>

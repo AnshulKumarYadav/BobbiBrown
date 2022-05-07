@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <title>Checkout</title>
+    <script src="https://kit.fontawesome.com/e83fe8687f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/BobbiBrown/style/checkout.css" />
+</head>
+
+<body>
+    <div id="navbar">
+        <div class="right">
+            <a href="index.html">
+                <p>BACK TO HOME</p>
+            </a>
+        </div>
+        <div class="center">
+            <img src="https://www.bobbibrowncosmetics.com/media/export/cms/logo.png">
+        </div>
+        <div class="left">
+        </div>
+    </div>
+
+    <!-- checkout -->
+
+    <div id="checkout">
+        <h1>CHECKOUT</h1>
+        <h3>SHIPPING ADDRESS <i class="fa-solid fa-truck-fast"></i></h3>
+        <div class="first">
+            <input type="text" placeholder="*First Name">
+            <input type="text" placeholder="*Last Name">
+        </div>
+        <div class="second">
+            <input type="text" placeholder="*Street Address">
+            <input type="text" placeholder="Apt, Suite, unit, floore etec (Optional)">
+        </div>
+        <div class="third">
+            <input id="zip" type="text" placeholder="Zip Code">
+            <input type="text" placeholder="*City">
+            <input type="text" placeholder="STATE">
+        </div>
+        <div class="four">
+            <p>Location United States *Shipping limited to United States addresses only</p>
+            <input type="text" placeholder="*ENTER MOBILE">
+        </div>
+        <h4>SIGN UP</h4>
+        <p>I'd like to receive recurring advertising text messages (SMS and MMS) from Bobbi Brown. I understand these
+            text messages may be sent via an autodialer, that consent is not required to purchase goods from Bobbi
+            Brown, and that I can opt-out any time by replying STOP to the text message I receive from Bobbi Brown. I
+            can text HELP for more information. Msg and data rates may apply. If I am a California resident, I agree to
+            the Notice of Financial Incentive. To learn more, view our <a href="">Privacy Policy.</a></p>
+
+        <button onclick="myFunction()">COMPLETE ORDER</button>
+
+        <h4>OUR GUARANTEE</h4>
+        <p>If for any reason you are not completely satisfied with your Bobbi Brown Online purchase, simply return the
+            unused portion and we will be happy to process an exchange or remit your account for the full amount of the
+            purchase. Please refer our <a href="">Return Policy.</a></p>
+    </div>
+
+    <!-- <Footer> -->
+
+    <div id="bottomFooter">
+        <div>
+            <p>© Bobbi Brown Professional Cosmetics, Inc. All worldwide rights reserved.</p>
+        </div>
+        <div>
+            <p>Terms & Conditions</p>
+            <p>California Do Not Sell My Personel Information</p>
+            <p>Accessibility</p>
+        </div>
+        <div>
+            <p>Interest Based Ads</p>
+            <p>Privacy Policy</p>
+        </div>
+    </div>
+</body>
+
+</html>
+
+<script>
+    function myFunction(){
+        window.location.href = "/BobbiBrown/html/thanks.html"
+    }
+</script>

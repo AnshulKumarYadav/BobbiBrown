@@ -4,7 +4,6 @@ document.getElementById("header").innerHTML = navbar()
 import { foot } from "../components/footer.js";
 document.getElementById("footer").innerHTML = foot()
 
-// ------------------------------------------- SIGNIN PART ---------------------------------------------
 let register = async (e) => {
   e.preventDefault();
 
