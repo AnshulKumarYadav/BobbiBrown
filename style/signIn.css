@@ -4,7 +4,7 @@
 #enter{
     display: flex;
     justify-content: center;
-    height: 600px;
+    height: 800px;
     margin-top: 40px;
 }
 #enterLeft , #enterRight {
@@ -14,7 +14,7 @@
 }
 #line{
   width: 3px;
-  height: 570px;
+  height: 760px;
   background-color: #000;
   margin-top: 20px;
 }
