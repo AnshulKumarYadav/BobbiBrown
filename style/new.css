@@ -20,7 +20,10 @@
   }
   #select {
     border: 3px solid black;
-    padding: 15px 70px;
+    /* padding: 15px 70px; */
+    background-color: black;
+    color: aliceblue;
+    border-radius: 20px;
   }
 
   #maincontainers {
@@ -50,7 +53,7 @@
   .box {
     /* border: 2px solid black; */
     width: 50%;
-    box-shadow: rgba(169, 167, 167, 0.2) 0px 2px 8px 0px;
+    box-shadow: rgba(54, 50, 50, 0.2) 0px 2px 8px 0px;
   }
 
   .textbox {
@@ -69,8 +72,8 @@
     margin-bottom: 15px;
   }
 
-  #select{
+  /* #select{
     background-color: black;
     color: white;
 
-  }
+  } */
