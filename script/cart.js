@@ -1,8 +1,15 @@
+// import { navbar } from "../components/navbar.js";
+// import { foot } from "../components/footer.js";
+
+// document.getElementById("header").innerHTML = navbar();
+
+// document.getElementById("footer").innerHTML = foot();
+
 document.querySelector("#quantity_No").innerText = 6;
 
 let item = document.querySelector("#cart_product")
 let cartDetails = JSON.parse(localStorage.getItem("bobcart"));
-
+let total_price = 0;
 cartDetails.map(function(elem){
     // main container for one item
     let div = document.createElement("div");
@@ -22,9 +29,11 @@ cartDetails.map(function(elem){
     let div3 = document.createElement("div");
     div3.setAttribute("id","name_tag")
     let name = document.createElement("p");
-    let remove = document.createElement("p");
+    let remove = document.createElement("i");
     name.innerText = elem.name;
-    // remove.append(`<i class="fa-solid fa-xmark-large"></i>`);
+    remove.setAttribute("class","fa-solid fa-xmark")
+
+    // remove.append(`<i class="fa-solid fa-xmark"></i>`);
     div3.append(name,remove);
 
     let size = document.createElement("p");
@@ -68,7 +77,7 @@ cartDetails.map(function(elem){
    
     let price = document.createElement("p");
     price.setAttribute("id","prod_price");
-    price.innerText = elem.price;
+    price.innerText ="$"+ elem.price;
     
     div4.append(select,price);
     div2.append(div3,size,div4);
@@ -79,23 +88,21 @@ cartDetails.map(function(elem){
     
 })
 
-// console.log(cartDetails)
+
 function myfunction(elem,price){
     let quantity = document.getElementById("p_qty").value;
     quantity = Number(quantity)
-    // console.log(quantity);
-    // let price = document.getElementById("prod_price").innerText;
+    
     let price1 = Number(elem.price);
     
-    // console.log(price1)
+    
     let total =price1*quantity;
-    // console.log(total)
-    // let price = document.getElementById("prod_price").innerText;
-    price.innerText = total;
-    // // price1 = total;
-    // // console.log(total);
-    // // let price = localStorage.setItem("price1",JSON.stringify(price1))
-    // return price1;
-    // localStorage.setItem("price1",total);
+    
+    price.innerText ="$"+ total+".00";
+    total_price = total_price+total;
+    console.log(total_price)
+    document.getElementById("total_amount2").innerText = `$${total_price}.00`;
+    document.getElementById("total_amount3").innerText = `$${total_price}.00`;
+    
 }
 

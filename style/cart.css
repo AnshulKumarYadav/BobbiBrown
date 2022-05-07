@@ -220,3 +220,7 @@ button{
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
 }
+a{
+    text-decoration: none;
+    color: white;
+}

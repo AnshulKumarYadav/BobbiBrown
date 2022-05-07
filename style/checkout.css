@@ -1,0 +1,127 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    align-items: center;
+    height: 96px;
+}
+
+.center>img {
+    width: 345px;
+    height: 36px;
+}
+
+.right {
+    font-size: 11px;
+    letter-spacing: 2px;
+}
+
+.right a{
+    color: white;
+}
+
+/* checkout */
+
+#checkout {
+    width: 65%;
+    margin: auto;
+}
+
+.first input {
+
+    padding: 10px 128px 8px 10px;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 30px 10px 30px 0px;
+}
+
+.second input {
+    display: block;
+    padding: 10px 463px 8px 10px;
+    font-weight: bold;
+    font-size: 16px;
+    margin: 0px 30px 30px 0px;
+}
+
+.third input {
+
+    padding: 10px 16px 8px 10px;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0px 10px 30px 0px;
+
+}
+
+.four input {
+
+    padding: 10px 125px 8px 10px;
+    font-size: 16px;
+    font-weight: bold;
+
+}
+
+#checkout h3 {
+    border-bottom: 1px solid;
+    padding: 10px;
+    border-top: 1px solid;
+    background-color: rgb(239, 240, 240);
+    letter-spacing: 2px;
+}
+
+#checkout h1{
+    margin-left: 5px;
+}
+
+#checkout h4 {
+    border-bottom: 1px solid;
+    margin-top: 30px;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+#checkout a{
+    color: rgb(245, 102, 102);
+}
+#checkout p {
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+
+#checkout button {
+    padding: 10px 30px;
+    font-size: 14px;
+    color: white;
+    background-color: black;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+#checkout button:hover {
+    background-color: rgb(56, 55, 55);
+}
+
+/* footer */
+#bottomFooter {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    height: 100px;
+    margin-top: 50px;
+    padding: 30px 250px 50px 50px;
+}
+
+#bottomFooter p {
+    cursor: pointer;
+    color: rgb(183, 183, 184);
+    font-size: 15px;
+    font-weight: bold;
+}
