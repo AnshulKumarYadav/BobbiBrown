@@ -25,6 +25,8 @@ let append=(data,container)=>{
     data.forEach((el)=>{
 
         let div=document.createElement("div");
+        div.setAttribute("id","box");
+        
         let img=document.createElement("img");
         div.setAttribute("class","image");
 
@@ -39,6 +41,8 @@ let append=(data,container)=>{
         let btn=document.createElement("button");
         btn.innerText="ADD TO BAG";
         div.setAttribute("class","button");
+        btn.backgroundColor="black";
+        btn.color="white";
 
         btn.addEventListener("click",function() {
             addtobag(el);
