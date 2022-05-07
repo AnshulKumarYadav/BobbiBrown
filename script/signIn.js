@@ -23,10 +23,10 @@ let register = async (e) => {
     {
       method: "POST",
       body: form_data,
-      mode: "no-cors",
+      // mode: "no-cors"
       headers: {
         "Content-Type": "application/json",
-      }
+      },
     }
   );
 
@@ -36,7 +36,6 @@ let register = async (e) => {
 };
 
 document.getElementById("submit").addEventListener("click", register);
-
 // -------------------------------- login ------------------------
 let login = async () =>{
   let user_data = {
