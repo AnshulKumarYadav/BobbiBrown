@@ -36,7 +36,6 @@ let register = async (e) => {
 
 document.getElementById("submit").addEventListener("click", register);
 // -------------------------------- login ------------------------
-
 let login = async () => {
   let user_data = {
     username: document.getElementById("username1").value,
@@ -63,6 +62,7 @@ let login = async () => {
 
 document.getElementById("logIn").addEventListener("click", login);
 
+// let userDetails = JSON.parse(localStorage.getItem("userData"))||[];
 let getUserDetail = async (username, token) => {
     console.log("here");
     alert("Login Success")
@@ -74,7 +74,9 @@ let getUserDetail = async (username, token) => {
       },
     }
   );
-
   let data = await res.json();
   console.log("user data: ", data);
+  // userDetails.push(data);
+  localStorage.setItem("userData",JSON.stringify(data));
+  window.location.href="/BobbiBrown/html/account.html"
 };
