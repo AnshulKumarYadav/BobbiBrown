@@ -12,7 +12,7 @@ function navbar()
             <h3>Join BBACCESS</h3>
             <div>
             <span class="material-symbols-outlined">add_location</span>
-            <span class="material-symbols-outlined" onclick="window.location.href='/BobbiBrown/html/signIn.html'">person</span>
+            <span class="material-symbols-outlined" onclick="window.location.href='/BobbiBrown/html/account.html'">person</span>
             <a href=
             "/BobbiBrown/html/cart.html"><span class="material-symbols-outlined">shopping_bag</span></a>
             </div>
