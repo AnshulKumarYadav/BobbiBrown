@@ -32,7 +32,7 @@ let register = async (e) => {
 
   let data = await res.json();
   console.log(data);
-  alert("SignIn Successful")
+  alert("Account Created Successfully Please login with your credentials")
 };
 
 document.getElementById("submit").addEventListener("click", register);
