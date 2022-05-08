@@ -50,4 +50,17 @@ let  details = JSON.parse(localStorage.getItem("userData"));
     div5.append(p5)
 
     div6.append(p6)
-    document.getElementById("container").append(div,div1,div2,div3,div4,div5,div6);
+     let btn = document.createElement("button");
+    btn.innerText="Sign Out";
+    btn.style.backgroundColor="black";
+    btn.style.color="white";
+    btn.addEventListener("click",myfunction);
+    let container = document.getElementById("container")
+    container.append(div,div1,div2,div3,div4,div5,div6,btn);
+
+    function myfunction(){
+        details = null;
+        localStorage.setItem("userData",JSON.stringify(details));
+        window.location.reload();
+       
+    }
