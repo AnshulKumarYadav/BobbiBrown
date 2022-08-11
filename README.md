@@ -108,6 +108,8 @@ Website Link:- https://anshulkumaryadav.github.io/BobbiBrown/
 
 Source Code:- https://github.com/AnshulKumarYadav/BobbiBrown.git
 
+Blog Link:- https://medium.com/@rahulnishad977/construct-week-of-unit-3-project-bobbibrown-89cb9c7ff341
+
 I hope this article will help you to understand BobbiBrown website project .
 
 # Thank you for reading.
