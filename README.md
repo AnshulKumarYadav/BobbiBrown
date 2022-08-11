@@ -18,11 +18,11 @@ This is a Women Cosmetics Products Ecommerce Website. Bobbi Brown is an American
 
 3. Vivek Goswami,
 
-4 .Harsha C,
+4. Harsha C,
 
-5 .Ananth Kumar,
+5. Ananth Kumar,
 
-6. Rahul Nishad (Me).
+6. Rahul Nishad.
 
 # Tech Stacks Used for Cloning Website By Us:
 
